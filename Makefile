@@ -1,7 +1,7 @@
 CFLAGS=-Wall -g
 
 clean:
-	rm -f ex01 ex03 ex04 ex05 ex06 ex07
+	rm -f ex01 ex03 ex04 ex05 ex06 ex07 ex08
 
 ex1:
 	gcc $(CFLAGS) learnc_ex01.c -o ex01
@@ -20,4 +20,7 @@ ex6:
 
 ex7:
 	gcc $(CFLAGS) learnc_ex07.c -o ex07
+
+ex8:
+	gcc $(CFLAGS) learnc_ex08.c -o ex08
 
